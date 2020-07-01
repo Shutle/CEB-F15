@@ -1,0 +1,118 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, optima;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 10;
+    height: 90px;
+}
+
+
+.logo {
+    width: 160px;
+    height: 70px;
+    margin-top: 12px;
+    float: left;
+}
+
+
+.menu li {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-right: 50px;
+    margin-top: 35px;
+    display: inline-block;
+ 
+    padding: 5px 18px;
+    transition: all 0.5s;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.la-shopping-bag {
+    margin-right: 9px;
+}
+
+.header-right {
+    float: right;
+    margin-top: 30px;
+}
+
+
+
+.header-right a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-right: 40px;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 40px;
+    transition: all 0.5s;
+}
+
+.header-right:hover a {
+    background-color: rgba(255, 255, 255, 0.849);
+    color: black;
+    margin-right: 40px;
+    display: inline-block;
+    padding: 5px 28px;
+    border-radius: 40px;
+}
+
+
+/* main */
+.top-wrapper {
+    background-image: url(https://i.ibb.co/Pwh5WXW/Main-Background.jpg);
+    background-size: cover;
+    padding-top: 385px;
+    padding-bottom: 280px;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+  }
+
+.container h1 {
+    color: #fff;
+}
+
+.product-wrapper {
+    background-color: #fff;
+    height: 550px;
+}
+
+footer {
+    background-color: black;
+    margin-bottom: auto;
+    color: #b3aeb5;
+}
+
+footer p {
+    font-size: 30px;
+    padding: 30px 20px;
+    font-family: tahoma;
+    font-weight: 280;
+}   
